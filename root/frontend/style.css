@@ -1,0 +1,21 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .col {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
