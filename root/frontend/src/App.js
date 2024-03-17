@@ -22,7 +22,8 @@ const App = () => {
         </div>
         <div className="col">
           <TextDisplay text={transcribedText} />
-          <PdfGenerator text={transcribedText} />
+          {/* Aggiungiamo la condizione di controllo per transcribedText */}
+          {transcribedText && <PdfGenerator text={transcribedText} />}
         </div>
       </div>
     </div>
